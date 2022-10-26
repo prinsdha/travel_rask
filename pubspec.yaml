@@ -1,0 +1,42 @@
+name: travelapp
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/icon/
+    - assets/image/
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/font/poppins/Poppins-Regular.otf
+        - asset: assets/font/poppins/Poppins-Light.otf
+          weight: 400
+        - asset: assets/font/poppins/Poppins-Medium.otf
+          weight: 500
+        - asset: assets/font/poppins/Poppins-SemiBold.otf
+          weight: 700
+        - asset: assets/font/poppins/Poppins-Bold.otf
+          weight: 800
